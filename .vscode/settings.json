@@ -1,0 +1,12 @@
+{
+	"emmet.showAbbreviationSuggestions": false,
+	"deno.enable": true,
+	"[javascript]": {
+		"editor.formatOnPaste": false,
+		"editor.formatOnSave": true,
+	},
+	"[typescript]": {
+		"editor.formatOnPaste": false,
+		"editor.formatOnSave": true,
+	},
+}

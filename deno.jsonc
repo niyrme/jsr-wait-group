@@ -1,0 +1,14 @@
+{
+	"name": "@niyrme/wait-group",
+	"version": "1.0.0",
+	"license": "MIT",
+	"exports": "./src/index.ts",
+	"imports": {},
+	"publish": {
+		"include": [
+			"src",
+			"LICENSE",
+			"README.md"
+		]
+	}
+}
