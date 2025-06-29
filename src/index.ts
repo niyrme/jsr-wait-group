@@ -16,7 +16,7 @@ export default class WaitGroup {
 	}
 
 	/** the current amount of items in the wait group */
-	get size() {
+	get size(): number {
 		return this.tasks.length;
 	}
 
@@ -33,7 +33,7 @@ export default class WaitGroup {
 	}
 
 	/** remove one item */
-	done() {
+	done(): void {
 		this.tasks.shift()?.resolve();
 	}
 
